@@ -1,0 +1,11 @@
+node_modules
+
+.keystone
+keystone.db
+*.log
+
+.DS_Store
+.env
+.idea
+backup.sql
+makefile

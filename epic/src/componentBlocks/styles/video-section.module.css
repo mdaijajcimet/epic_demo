@@ -1,0 +1,17 @@
+.videoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    max-width: 350px;
+  }
+  
+  .videoWrapper {
+    width: 100%;
+  }
+  
+  .video {
+    width: 100%;
+  }
+  
+  

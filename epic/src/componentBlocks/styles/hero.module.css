@@ -1,0 +1,85 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.titleContainer {
+  display: flex;
+  grid-column: span 3 / span 3;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  align-items: initial;
+  text-align: initial;
+  justify-content: center;
+}
+
+.columnView {
+  align-items: center;
+  text-align: center;
+  justify-content: initial;
+}
+
+.titleContainerWithImage {
+  grid-column: span 2 / span 2;
+}
+
+.iframeContainer {
+  width: 83.33%;
+  height: auto;
+  margin-top: 2rem;
+}
+
+.figure {
+  grid-column: span 1;
+  justify-self: center;
+}
+
+.image {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 100%;
+}
+
+.arrowWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.descriptionWithImage {
+  width: 90%;
+}
+
+.descriptionWithColumnView {
+  max-width: 800px;
+}
+
+.titleWithColumnView {
+  max-width: 900px;
+}
+
+.multilineDescWrapper{
+  margin: 0;
+  padding: 0;
+}
+
+.multilineDesc{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  justify-content: left;
+}
+
+.multilineDesc img{
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.disclaimerContainer {
+  width: 83.33%;
+  height: auto;
+}

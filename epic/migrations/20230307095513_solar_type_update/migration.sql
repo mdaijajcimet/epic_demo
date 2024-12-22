@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE "SolarBundle" ALTER COLUMN "areaNeeded" SET DATA TYPE DOUBLE PRECISION;

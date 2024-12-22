@@ -1,0 +1,13 @@
+.matrix-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+}
+
+.hr-line {
+  border: none;
+  height: 4px;
+  background-color: #000;
+  margin: 20px 0;
+}

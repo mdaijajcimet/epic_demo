@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE "Battery" ALTER COLUMN "powerRating" SET DATA TYPE DOUBLE PRECISION;

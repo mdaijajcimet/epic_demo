@@ -1,0 +1,66 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  color: gray;
+}
+
+.titleWrapper {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titleWrapper:hover {
+  cursor: pointer;
+}
+
+.title {
+  font-weight: 500;
+  color: #000;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.title.active {
+  color: green;
+}
+
+.iconWrapper {
+  background: rgb(235, 235, 235);
+  border-radius: 50%;
+  color: '#000';
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.horizontalLine {
+  background: rgb(215, 215, 215);
+  height: 2px;
+  margin-bottom: 4px;
+}
+
+.paragraphWrapper {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 8px;
+  transition: all 400ms ease-in-out;
+  display: block;
+}
+
+.paragraph {
+  border: 5px solid #eff3f6;
+  border-radius: 5px;
+  padding: 0 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hidden {
+  display: none;
+}

@@ -1,0 +1,27 @@
+.button {
+  padding: 10px;
+  background-color: #fda213;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.heading {
+  font-size: 32px;
+  margin: 0 0 0.5rem 0;
+}
+
+.title {
+  font-size: 24px;
+  margin: 0 0 0.5rem 0;
+}
+
+.subTitle {
+  margin: 0;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.description {
+  font-size: 16px;
+  margin: 0 0 0.5rem 0;
+}

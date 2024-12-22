@@ -1,0 +1,38 @@
+.matrix-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+}
+
+.matrix-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  border: 1px solid #ccd1d5;
+}
+
+.matrix-subgroup {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+}
+
+.header-section {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.header-button {
+  flex: 0.1;
+  text-align: center;
+  margin: 12px 0;
+}
+
+.header-button:hover {
+  color: #f0f0f0;
+}

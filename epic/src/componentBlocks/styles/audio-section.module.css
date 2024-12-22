@@ -1,0 +1,15 @@
+.audioContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.audioWrapper {
+  width: 100%;
+}
+
+.audio {
+  width: 100%;
+}
+

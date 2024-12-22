@@ -1,0 +1,7 @@
+-- AlterTable
+ALTER TABLE "EarnRate" ADD COLUMN     "isUncappedEarnRate" BOOLEAN NOT NULL DEFAULT false,
+ALTER COLUMN "isGenericEarnRate" SET DEFAULT true,
+ALTER COLUMN "rangeMinimum" DROP NOT NULL,
+ALTER COLUMN "rangeMax" DROP NOT NULL,
+ALTER COLUMN "rangeUnit" DROP NOT NULL,
+ALTER COLUMN "rangePeriod" DROP NOT NULL;

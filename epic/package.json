@@ -1,0 +1,69 @@
+{
+  "name": "keystone-app",
+  "version": "1.0.1",
+  "private": true,
+  "scripts": {
+    "migrate": "keystone prisma migrate dev --create-only",
+    "dev": "keystone prisma migrate dev && keystone dev --no-db-push",
+    "start": "keystone start --with-migrations",
+    "build": "keystone build && keystone prisma migrate deploy",
+    "reset": "keystone prisma migrate reset",
+    "postinstall": "keystone postinstall",
+    "rollback": "keystone prisma migrate resolve",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "eslint"
+    ]
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.587.0",
+    "@aws-sdk/s3-request-presigner": "^3.587.0",
+    "@json2csv/plainjs": "^7.0.6",
+    "@keystone-6/auth": "^8.0.0",
+    "@keystone-6/cloudinary": "^8.0.0",
+    "@keystone-6/core": "^6.1.0",
+    "@keystone-6/fields-document": "^9.0.0",
+    "@keystone-ui/button": "^7.0.2",
+    "@keystone-ui/fields": "^7.1.2",
+    "@keystone-ui/loading": "^6.0.2",
+    "@keystone-ui/toast": "^6.0.2",
+    "@mantine/core": "^7.10.1",
+    "@mantine/hooks": "^7.10.1",
+    "@prisma/migrate": "5.13.0",
+    "@tinymce/tinymce-react": "^5.0.1",
+    "axios": "^1.7.2",
+    "body-parser": "^1.20.2",
+    "classnames": "^2.5.1",
+    "csv-parse": "^5.5.6",
+    "dayjs": "^1.11.11",
+    "dotenv": "^16.4.5",
+    "express-fileupload": "^1.5.0",
+    "fp-ts": "^2.16.6",
+    "html-react-parser": "^5.1.10",
+    "lodash": "^4.17.21",
+    "mime-types": "^2.1.35",
+    "nanoid": "3.3.7",
+    "react-select": "^5.8.0",
+    "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": "20"
+  },
+  "devDependencies": {
+    "@types/express-fileupload": "^1.5.0",
+    "@types/mime-types": "^2.1.4",
+    "@typescript-eslint/eslint-plugin": "^5.35.1",
+    "@typescript-eslint/parser": "^5.35.1",
+    "eslint": "^8.22.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1"
+  },
+  "resolutions": {
+    "next": "13.4.4"
+  }
+}

@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  color: #6b7280;
+  font-weight: 500;
+  margin-bottom: 4px;
+  margin-right: 24px;
+  padding: 8px 24px;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+
+.expandedContainer {
+  background-color: #2663eb;
+  color: #fff;
+}
+
+.container:hover {
+  background: #eff6ff;
+  color: #2663eb;
+}
+
+.list {
+  margin-left: 1.5rem;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.listExpanded {
+  margin-bottom: 1rem;
+}
+
+.titleSign {
+  font-size: 1.125rem;
+  margin-top: -0.125rem;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}

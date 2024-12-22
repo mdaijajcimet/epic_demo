@@ -1,0 +1,86 @@
+.fieldLayout {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.fieldLabel {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  min-width: 200px;
+  max-width: 200px;
+}
+
+.radio {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  gap: 3rem;
+}
+
+.hrLine {
+  border: 1px solid #b6b6b6;
+}
+
+.error {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 0.25rem; 
+}
+
+.saveButton {
+  background-color: #22c55e;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+
+  &.saveButton:hover {
+    background-color: #13823b;
+  }
+
+  &.saveButton:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+
+}
+
+.inputText {
+  flex: 1;
+}
+
+.generateButton {
+  background-color: #1776c9;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+  
+  &.generateButton:hover {
+    background-color: #ffffff;
+    color: #1776c9;
+    border: 1px solid #1776c9;
+  }
+
+  &.generateButton:disabled {
+    background-color: #6c757d;
+    color: #ffffff;
+    cursor: not-allowed;
+    border: none;
+  }
+}
+
+.btnWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+

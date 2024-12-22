@@ -1,0 +1,74 @@
+.groups-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 200px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.group-box {
+  background-color: white;
+  border-color: #e1e5e9;
+  border-radius: 8px;
+  border-width: 1px;
+  display: inline-block;
+  min-width: 280px;
+  text-align: center;
+  padding: 16px;
+  margin: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.group-box:hover {
+  border-color: #3b82f6;
+}
+
+.matrix-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+  & a {
+    text-decoration: none;
+  }
+}
+
+.matrix-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  border: 1px solid #ccd1d5;
+}
+
+.matrix-subgroup {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+}
+
+.header-section {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: flex-end;
+  text-align: center;
+}
+
+.header-section a {
+  text-decoration: none;
+}
+
+.header-button {
+  flex: 0.1;
+  text-align: center;
+  margin: 12px 0;
+}
+
+.header-button:hover {
+  color: #f0f0f0;
+}
